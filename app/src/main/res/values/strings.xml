@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">eCommerce Grocery App OOP</string>
+    <string name="app_name">Rough(eCommerceGrocery App)OOP</string>
+    <string name="AppLogo" />
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+
+    <string-array name="Register_as">
+        <item>Register as</item>
+        <item>Customer</item>
+        <item>Retailer</item>
+        <item>Wholesaler</item>
+    </string-array>
+
 </resources>

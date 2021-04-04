@@ -7,24 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-
-    private Button JoinNow,LoginButton;
+public class Register extends AppCompatActivity {
+    private Button Register,Already_a_user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register);
 
-        JoinNow=(Button)findViewById(R.id.JoinNow);
-        LoginButton=(Button)findViewById(R.id.login);
+        Register=(Button)findViewById(R.id.register);
+        Already_a_user=(Button)findViewById(R.id.already_a_user);
 
-
-        JoinNow.setOnClickListener(new View.OnClickListener() {
+        Already_a_user.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(getApplicationContext(),Register.class));
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
 
             }
         });
